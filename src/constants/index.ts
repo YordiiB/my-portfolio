@@ -55,17 +55,18 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile App Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "React Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
-  },
+  title: "Enterprise ERP Solutions",
+  icon: creator,
+},
+
 ];
 
 const technologies: TTechnology[] = [
@@ -123,60 +124,118 @@ const technologies: TTechnology[] = [
   },
 ];
 
+// const experiences: TExperience[] = [
+//   {
+//     title: "React.js Developer",
+//     companyName: "Starbucks",
+//     icon: starbucks,
+//     iconBg: "#383E56",
+//     date: "March 2020 - April 2021",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "React Native Developer",
+//     companyName: "Tesla",
+//     icon: tesla,
+//     iconBg: "#E6DEDD",
+//     date: "Jan 2021 - Feb 2022",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "Web Developer",
+//     companyName: "Shopify",
+//     icon: shopify,
+//     iconBg: "#383E56",
+//     date: "Jan 2022 - Jan 2023",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "Full stack Developer",
+//     companyName: "Meta",
+//     icon: meta,
+//     iconBg: "#E6DEDD",
+//     date: "Jan 2023 - Present",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+// ];
+
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Developer",
+    companyName: "AlephTav Consultancy and Trading PLC ",
+    icon: reactjs, 
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Oct 26, 2023 - July 20, 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed a full inventory management system using React for the frontend.",
+      "Built RESTful APIs with Laravel and managed backend logic.",
+      "Designed and maintained MySQL database schemas and queries.",
+      "Implemented authentication, role-based access, and CRUD operations.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer & IT Support",
+    companyName: "Hamtek Trading PLC",
+    icon: web, // replace with your icon if you have one
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 12, 2024 - Aug 16, 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained full stack applications using React, Laravel, and MySQL.",
+      "Provided IT support including system troubleshooting, hardware, and software maintenance.",
+      "Collaborated with internal teams to improve system reliability and performance.",
+      "Managed deployment, updates, and user support for internal systems.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  title: "Frappe & ERPNext Developer",
+  companyName: "Mevinai PLC",
+  icon: web, // replace with your icon if you have one
+  iconBg: "#E6DEDD",
+  date: "Aug 22, 2025 - Dec 29, 2025",
+  points: [
+    "Worked on Frappe Framework and ERPNext customization to meet business requirements.",
+    "Developed and customized backend features using Python within the Frappe framework.",
+    "Contributed to Frappe UI development using React to improve user experience and interface consistency.",
+    "Configured, customized, and supported ERPNext modules and workflows.",
+    "Collaborated with team members to troubleshoot, enhance, and maintain ERP systems.",
+  ],
+},
+
+  // {
+  //   title: "Full Stack Developer",
+  //   companyName: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
+
 
 const testimonials: TTestimonial[] = [
   {
