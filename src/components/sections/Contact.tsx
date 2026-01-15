@@ -12,10 +12,11 @@ const INITIAL_STATE = Object.fromEntries(
   Object.keys(config.contact.form).map((input) => [input, ""])
 );
 
+
 const emailjsConfig = {
-  serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
-  templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-  accessToken: import.meta.env.VITE_EMAILJS_ACCESS_TOKEN,
+  serviceId: "service_3efcuf2",
+  templateId: "template_2m26jw9",
+  publicKey: "uyslM0nXrB-uNW0iD",
 };
 
 const Contact = () => {
@@ -47,7 +48,8 @@ const Contact = () => {
           to_email: config.html.email,
           message: form.message,
         },
-        emailjsConfig.accessToken
+        emailjsConfig.publicKey
+
       )
       .then(
         () => {
