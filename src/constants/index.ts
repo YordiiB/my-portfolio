@@ -238,5 +238,10 @@ const projects: TProject[] = [
   },
 ];
 
+export const personalInfo = {
+  email: "yordibifa22@gmail.com",
+  linkedin: "https://www.linkedin.com/in/yordanos-d-225b65200/",
+  github: "https://github.com/YordiiB",
+};
 
 export { services, technologies, experiences, testimonials, projects };

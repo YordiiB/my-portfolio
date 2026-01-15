@@ -65,9 +65,22 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="h-9 w-9 object-contain" />
-          <p className="flex cursor-pointer text-[18px] font-bold text-white ">
+          {/* <p className="flex cursor-pointer text-[18px] font-bold text-white ">
             {config.html.title}
-          </p>
+          </p> */}
+          <div className="flex flex-col leading-tight">
+  <p className="cursor-pointer text-[18px] font-bold text-white">
+    {config.html.fullName} - Portfolio
+  </p>
+
+  <a
+    href={`mailto:${config.html.email}`}
+    className="text-[14px] text-secondary hover:text-white transition hidden sm:block"
+  >
+    {config.html.email}
+  </a>
+</div>
+
         </Link>
 
         <ul className="hidden list-none flex-row gap-10 sm:flex">

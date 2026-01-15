@@ -42,3 +42,8 @@ export type TMotion = {
   delay: number;
   duration: number;
 };
+export type TPersonalInfo = {
+  email: string;
+  linkedin: string;
+  github: string;
+};

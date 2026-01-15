@@ -7,6 +7,8 @@ import { SectionWrapper } from "../../hoc";
 import { slideIn } from "../../utils/motion";
 import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
+import { personalInfo } from "../../constants";
+
 
 const INITIAL_STATE = Object.fromEntries(
   Object.keys(config.contact.form).map((input) => [input, ""])
@@ -110,6 +112,45 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+<div className="mt-10 space-y-5 border-t border-white/10 pt-6">
+  {/* Email */}
+  <div>
+    <p className="text-sm text-secondary">Email</p>
+    <a
+      href={`mailto:${personalInfo.email}`}
+      className="text-white transition hover:text-[#915EFF]"
+    >
+      {personalInfo.email}
+    </a>
+  </div>
+
+  {/* LinkedIn */}
+  <div>
+    <p className="text-sm text-secondary">LinkedIn</p>
+    <a
+      href={personalInfo.linkedin}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-white transition hover:text-[#915EFF]"
+    >
+      https://www.linkedin.com/in/yordanos-d-225b65200/
+    </a>
+  </div>
+
+  {/* GitHub */}
+  <div>
+    <p className="text-sm text-secondary">GitHub</p>
+    <a
+      href={personalInfo.github}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-white transition hover:text-[#915EFF]"
+    >
+      github.com/YordiiB
+    </a>
+  </div>
+</div>
+
       </motion.div>
 
       <motion.div
@@ -121,5 +162,6 @@ const Contact = () => {
     </div>
   );
 };
+
 
 export default SectionWrapper(Contact, "contact");
