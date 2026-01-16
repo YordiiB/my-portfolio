@@ -25,10 +25,6 @@ import {
   figma,
   docker,
   ecommerce,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   
   threejs,
   ims,
