@@ -13,7 +13,6 @@ const FeedbackCard: React.FC<{ index: number } & TTestimonial> = ({
   name,
   designation,
   company,
-  _image,
 }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
