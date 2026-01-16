@@ -44,6 +44,8 @@ export const navLinks: TNavLink[] = [
     id: "work",
     title: "Work",
   },
+   { id: "certificates",
+     title: "Certificates" },
   {
     id: "contact",
     title: "Contact",
@@ -233,10 +235,84 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: ecommerce, // 🔁 replace with your eCommerce screenshot asset if available
+    image: ecommerce,
     sourceCodeLink: "https://github.com/YordiiB",
   },
 ];
+
+
+export type TCertificate = {
+  title: string;
+  issuer: string;
+  year: string;
+  description?: string;
+  link?: string;
+  category: "Tech" | "Microsoft" | "Other";
+};
+
+export const certificates: TCertificate[] = [
+   {
+    category: "Microsoft",
+    title: "Describe Cloud Computing",
+    issuer: "Microsoft Learn",
+    year: "2024",
+    // link: "/assets/certificates/Describe-Cloud-Computing.pdf",
+  },
+  {
+    category: "Microsoft",
+    title: "Describe Features and Tools for Managing and Deploying Azure Resources",
+    issuer: "Microsoft Learn",
+    year: "Feb 12, 2024",
+    // link: "/assets/certificates/azure_resources.pdf",
+  },
+  {
+    category: "Microsoft",
+    title: "Describe Cloud Service Types",
+    issuer: "Microsoft Learn",
+    year: "2024",
+    // link: "/assets/certificates/cloud_service_types.pdf",
+  },
+  {
+    category: "Tech",
+    title: "Computer Maintenance and Networking",
+    issuer: "Satcom Institute of Technology",
+    year: "2022",
+  },
+  {
+    category: "Tech",
+    title: "Coding Courses",
+    issuer: "OmniTech Consultancy Plc",
+    year: "2016 – 2017",
+  },
+  {
+    category: "Tech",
+    title: "Adobe Photoshop",
+    issuer: "Virtual Computer Engineering",
+    year: "2016",
+  },
+  {
+    category: "Tech",
+    title: "Digital Marketing Workshop",
+    issuer: " ",
+    year: "2023",
+  },
+  {
+    category: "Other",
+    title: "IELTS Certificate",
+    issuer: " ",
+    year: " ",
+  },
+  {
+    category: "Other",
+    title: "Certificate of Appreciation",
+    issuer: "Bahir Dar University – Institute of Technology (KTS)",
+    year: "3 Years",
+    description:
+      "Awarded for dedicated service and contribution to the Knowledge and Technology Store (KTS).",
+  },
+ 
+];
+
 
 export const personalInfo = {
   email: "yordibifa22@gmail.com",

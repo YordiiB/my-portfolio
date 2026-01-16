@@ -13,6 +13,7 @@ import {
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";
+import Certificates from "./components/sections/Certificates";
 
 const App = () => {
   useEffect(() => {
@@ -33,6 +34,7 @@ const App = () => {
         <Tech />
         <Works />
         <Feedbacks />
+        <Certificates /> 
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
